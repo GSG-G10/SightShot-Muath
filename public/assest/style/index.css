@@ -168,21 +168,32 @@ body {
 
 /* Header profile Section  */
 .header-profile {
-  /* border: 1px solid red; */
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .header-profile-image {
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  border: 3px solid var(--mainColor);
+  border: 2px solid var(--mainColor);
 }
 .header-profile-image-img {
   width: 100%;
   height: 100%;
+}
+.header-profile-title{
+  width: 55%;
+  height: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: var(--titleColor)
+}
+.header-profile-dropdown{
+  font-weight: 300;
 }
 /* Product Sections */
 .product-sections{
